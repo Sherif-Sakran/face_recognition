@@ -1,0 +1,4 @@
+To use the software from the terminal, run tag2.py
+
+For documentation and instructions on how to use, check this blog
+https://andrew-hany.github.io/Library_internship/
