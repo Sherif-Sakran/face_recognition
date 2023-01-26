@@ -12,6 +12,8 @@ import pandas as pd
 import re
 import cv2
 import webbrowser
+from threading import Thread
+
 
 counter = 0
 images = []

@@ -1,0 +1,27 @@
+img: Alexandria library 1.jfif, person detected: unknown
+img: Alexandria library 1.jfif, person detected: unknown
+img: Alexandria library 1.jfif, person detected: unknown
+
+img: Hazard and Salah.jpg, person detected: unknown
+img: Hazard and Salah.jpg, person detected: Mohamed Salah
+
+img: Mbape and Ronaldo.jpeg, person detected: unknown
+img: Mbape and Ronaldo.jpeg, person detected: unknown
+
+img: mohamed-salah.jpg, person detected: Mohamed Salah
+
+img: Princess and Sir.jpg, person detected: unknown
+
+img: Princess Diana.jpg, person detected: P. Diana
+
+
+img: prof. Zewail.jpg, person detected: Dr. Ahmed Zewail
+
+img: Riccioardone and Dallal.jpeg, person detected: Ahmed Dallal
+img: Riccioardone and Dallal.jpeg, person detected: Ahmed Dallal
+
+img: Sir Yacoub.jpg, person detected: Sir Magdi Yacoub
+
+time taken: 10.249033451080322
+
+Process finished with exit code 0
