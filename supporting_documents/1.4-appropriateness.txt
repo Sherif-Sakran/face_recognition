@@ -1,0 +1,13 @@
+The component-based testing applied to the ML model showed that the deep learning model implemented in
+the face_recognition library is more suitable for the software than classifier models.
+
+More importantly, when integrating both the tagging and recognizing units, the integration test was
+appropriate to detect a major defect. Different photos were used, but as boundary values, a photo that 
+includes two faces close to each other was used, and the faces are distant from the camera which makes
+them appear small. The defect was that during the tagging unit when fitting the model, the model stores
+a cropped face from the photo to keep only the required face features in its database. The software could
+tag the two faces but could not recognize one of them afterwards.
+
+Going back to tagging the photos, it was found that the square around the face that shows the face being
+detected is saved along with the face which takes a small part of the image. However, in this very
+boundary value, the face became too small, and not full, to be detected.

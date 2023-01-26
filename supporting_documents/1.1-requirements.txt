@@ -1,0 +1,23 @@
+Functional requirements:
+- The software is capable of detectig the faces found in photos. For photos that contain more than a face, a number should indicate each face (for example 'x1' and 'x2').
+- The user can tag one or more of the detected persons to let the model learn about them for future face recognition purposes, and any created files should be kept in a separate directory within the environment.
+- The software stores the data entered in a general metadata file and in a separate file. The metadata includes the following information:
+    •	Name(s) - The only necessary entry: If more than a person is to be tagged, names are to be separated by a special characted (for example a ';') with the same order shown on the squares of detected faces
+    •	Photographer
+    •	Date (YYYY-MM-DD)
+    •	Place
+    •	Event
+    •	Description
+    •	Source
+
+- The software would recognize the known faces in a given set of photos.
+- The GUI application displays the photos to be tagged or recognized.
+- The software is not capable of modifying or removing any of the photos.
+
+Non-functional requirements:
+- Reliability: the recognition of faces should be done accurately
+- Usability: the GUI should be easy-to-use where the features should afford its functionalities
+- Speed: the recognition of faces in photos should take reasonable time
+- Installability: the environment should be installed easily without any need for a technical background
+
+* The software is designed for this specific purpose to be used for organizing its digital archives of photographs. However, the software could be used for any facial recognition purposes with no or minor adjustments depending on the requirements.
